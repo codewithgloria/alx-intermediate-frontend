@@ -1,0 +1,23 @@
+{
+  "name": "0x02-tailwind-css",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithgloria/alx-intermediate-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewithgloria/alx-intermediate-frontend/issues"
+  },
+  "homepage": "https://github.com/codewithgloria/alx-intermediate-frontend#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  }
+}
