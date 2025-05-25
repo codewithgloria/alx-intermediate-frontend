@@ -8,6 +8,9 @@
 .grid {
   display: grid;
 }
+.h-auto {
+  height: auto;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -20,6 +23,9 @@
 .w-2\/3 {
   width: calc(2/3 * 100%);
 }
+.w-full {
+  width: 100%;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -29,8 +35,14 @@
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+.flex-col {
+  flex-direction: column;
+}
 .justify-center {
   justify-content: center;
+}
+.object-cover {
+  object-fit: cover;
 }
 .underline {
   text-decoration-line: underline;
